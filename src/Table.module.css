@@ -1,0 +1,90 @@
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    table-layout: fixed;
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color:black;
+    text-align: left;
+    font-weight: bold;
+    padding: auto;
+    width: 100%;
+    min-width: 138px;
+    table-layout: fixed;
+
+  }
+  
+  .content-table th
+  {
+    padding: 12px 15px;
+    min-width: 138px;
+  }
+  .content-table td {
+    padding: 12px 15px;
+    min-width: 138px;
+  }
+  
+  .content-table tbody tr {
+    border-left-width: 0ch;
+    border-bottom: 1px solid #dddddd;
+    min-width: 138px;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  .cn{
+    
+    padding: 150px;
+    background-image:linear-gradient(rgba(240, 203, 203, 0.75), rgba(0,0,0,0.75)), url('C:\Users\ennea\OneDrive\Desktop\middle-idea\src\Image2.jfif');
+    background-size: 1600px ;
+    
+    background-repeat: no-repeat;
+
+    color: rgb(243, 228, 243);
+    font-size: 20px;
+  }
+  h1{
+    font-size: 70px;
+    color:rgb(191, 235, 191);
+    
+  }
+label{
+ 
+  color:#f3f3f3;
+}
+input{
+  position:relative;
+  display:inline-block;
+  font-size:20px;
+  box-sizing: border-box;
+  
+  
+}
+input[type='search']{
+  margin-top: 10px;
+  
+}
+
+button{
+  border-radius: 5px;
+  padding:3px 3px 3px 3px;
+  
+}  
+  

@@ -1,0 +1,27 @@
+.pagination button{
+    color: #012102;
+    padding: 4px 8px;
+    border-radius: 5px rgb(49, 4, 4);
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+
+.pagination {
+    align-items: center;
+    
+}
+
+.pagination button {
+    background-color: #60d7bf;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px;
+  }
